@@ -343,7 +343,7 @@ core.mark_visual = function()
 				table.insert(b_lines, line)
 			end
 		end
-		table.insert(b_lines, "")
+		table.insert(b_lines, "") -- seems needed for (i)python
 		return b_lines
 	else
 		return lines
